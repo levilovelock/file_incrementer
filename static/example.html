@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+  		<title>Books Control Center</title>
+		<link rel="stylesheet" href="/stylesheets/main.css">
+	</head>
+	<body>
+		<script>
+			function httpGetAsync(callback){
+			    var xmlHttp = new XMLHttpRequest();
+			    xmlHttp.onreadystatechange = function() { 
+			        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+			            callback(xmlHttp.responseText);
+			    }
+			    xmlHttp.open("GET", "inc", true);
+			    xmlHttp.send(null);
+			}
+		</script>
+		<form name="myform">
+			<input type="button" value="fufufufu" class="fsSubmitButton" onclick="httpGetAsync();"/>
+		</form>
+
+
+		<iframe src="https://twitch.tv/bookpage/chat" frameborder="0" height="400" width="400" name="iframe"></iframe>
+	</body>
+</html>

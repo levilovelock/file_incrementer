@@ -1,0 +1,16 @@
+body {color: #c0392b}
+
+.fsSubmitButton
+{
+	border-top:		2px solid #a3ceda;
+	border-left:		2px solid #a3ceda;
+	border-right:		2px solid #4f6267;
+	border-bottom:		2px solid #4f6267;
+	padding:		10px 20px !important;
+	font-size:		18px !important;
+	background-color:	#c4f1fe;
+	font-weight:		bold;
+	color:			#2d525d;
+	width: 400;
+	height: 170;
+}
